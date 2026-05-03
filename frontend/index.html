@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIS Standards Finder | AI-Powered Recommendation Engine</title>
+    <meta name="description" content="AI-powered BIS Standard recommendation engine for Indian Micro & Small Enterprises. Find relevant Bureau of Indian Standards in seconds.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Three.js 3D Background Canvas -->
+    <canvas id="three-canvas"></canvas>
+
+    <!-- Floating particles overlay -->
+    <div id="particles-overlay"></div>
+
+    <!-- Main App Container -->
+    <div class="app-container">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-brand">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 40 40" fill="none">
+                        <rect x="2" y="2" width="36" height="36" rx="8" stroke="url(#g1)" stroke-width="2.5"/>
+                        <path d="M12 28V14l8 7 8-7v14" stroke="url(#g1)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <defs><linearGradient id="g1" x1="0" y1="0" x2="40" y2="40"><stop stop-color="#60a5fa"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
+                    </svg>
+                </div>
+                <span class="brand-text">BIS<span class="brand-accent">Standards</span></span>
+            </div>
+            <div class="nav-links">
+                <a href="#search" class="nav-link active" data-section="search">Search</a>
+                <a href="#standards" class="nav-link" data-section="browse">Browse</a>
+                <a href="#about" class="nav-link" data-section="about">About</a>
+            </div>
+            <div class="nav-status">
+                <div class="status-dot" id="status-dot"></div>
+                <span class="status-text" id="status-text">Connecting...</span>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-badge">
+                <span class="badge-pulse"></span>
+                AI-Powered RAG Engine
+            </div>
+            <h1 class="hero-title">
+                Find <span class="gradient-text">BIS Standards</span><br>
+                in Seconds
+            </h1>
+            <p class="hero-subtitle">
+                Describe your building material product and our AI retrieves the most relevant 
+                Bureau of Indian Standards instantly. Built for Indian MSEs.
+            </p>
+        </section>
+
+        <!-- Search Section -->
+        <section class="search-section" id="search">
+            <div class="search-card glass-card">
+                <div class="search-header">
+                    <div class="search-icon-wrap">
+                        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/>
+                        </svg>
+                    </div>
+                    <h2>Describe Your Product</h2>
+                </div>
+                <textarea id="query-input" class="search-textarea" 
+                    placeholder="e.g., 53 grade ordinary portland cement for high-rise building construction..."
+                    rows="3"></textarea>
+                
+                <div class="search-controls">
+                    <div class="control-group">
+                        <label>Category</label>
+                        <select id="category-filter" class="control-select">
+                            <option value="">All Categories</option>
+                            <option value="Cement">Cement</option>
+                            <option value="Steel">Steel</option>
+                            <option value="Concrete">Concrete</option>
+                            <option value="Aggregates">Aggregates</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
+                        <label>Results</label>
+                        <select id="top-k" class="control-select">
+                            <option value="3">Top 3</option>
+                            <option value="5" selected>Top 5</option>
+                            <option value="7">Top 7</option>
+                        </select>
+                    </div>
+                    <button id="search-btn" class="search-button" onclick="performSearch()">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10"/>
+                        </svg>
+                        <span>Find Standards</span>
+                    </button>
+                </div>
+
+                <!-- Example Queries -->
+                <div class="examples-bar">
+                    <span class="examples-label">Try:</span>
+                    <button class="example-chip" onclick="setQuery(this)">53 grade OPC cement for structural concrete</button>
+                    <button class="example-chip" onclick="setQuery(this)">Fe 500D TMT steel bars for RCC bridge</button>
+                    <button class="example-chip" onclick="setQuery(this)">M30 concrete mix design for commercial building</button>
+                    <button class="example-chip" onclick="setQuery(this)">Coarse aggregate 20mm for ready-mix concrete</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Loading State -->
+        <section class="loading-section" id="loading" style="display:none;">
+            <div class="loader-card glass-card">
+                <div class="loader-ring">
+                    <div class="ring r1"></div>
+                    <div class="ring r2"></div>
+                    <div class="ring r3"></div>
+                </div>
+                <p class="loader-text">Analyzing product description...</p>
+                <div class="loader-steps">
+                    <div class="step active" id="step-1">Embedding query</div>
+                    <div class="step" id="step-2">Hybrid retrieval</div>
+                    <div class="step" id="step-3">Re-ranking</div>
+                    <div class="step" id="step-4">Generating rationale</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Section -->
+        <section class="results-section" id="results" style="display:none;">
+            <!-- Metrics Row -->
+            <div class="metrics-row" id="metrics-row"></div>
+            <!-- Recommendation Cards -->
+            <div class="results-grid" id="results-grid"></div>
+            <!-- Source Documents -->
+            <div class="sources-panel glass-card" id="sources-panel" style="display:none;">
+                <h3 class="sources-title" onclick="toggleSources()">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                        <polyline points="14 2 14 8 20 8"/>
+                    </svg>
+                    Source Chunks Retrieved
+                    <span class="toggle-arrow">&#9660;</span>
+                </h3>
+                <div class="sources-content" id="sources-content"></div>
+            </div>
+        </section>
+
+        <!-- Browse Standards Section -->
+        <section class="browse-section" id="browse" style="display:none;">
+            <h2 class="section-title">Browse Standards Database</h2>
+            <div class="category-tabs" id="category-tabs"></div>
+            <div class="standards-grid" id="standards-grid"></div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about" style="display:none;">
+            <div class="about-card glass-card">
+                <h2>System Architecture</h2>
+                <div class="arch-flow">
+                    <div class="arch-node">
+                        <div class="arch-icon">📝</div>
+                        <div class="arch-label">Product Description</div>
+                    </div>
+                    <div class="arch-arrow">&rarr;</div>
+                    <div class="arch-node">
+                        <div class="arch-icon">🔢</div>
+                        <div class="arch-label">Query Embedding<br><small>MiniLM-L6-v2</small></div>
+                    </div>
+                    <div class="arch-arrow">&rarr;</div>
+                    <div class="arch-node dual">
+                        <div class="arch-icon">🔍</div>
+                        <div class="arch-label">Hybrid Retrieval<br><small>Dense + BM25 + RRF</small></div>
+                    </div>
+                    <div class="arch-arrow">&rarr;</div>
+                    <div class="arch-node">
+                        <div class="arch-icon">🎯</div>
+                        <div class="arch-label">Cross-Encoder<br><small>Re-Ranker</small></div>
+                    </div>
+                    <div class="arch-arrow">&rarr;</div>
+                    <div class="arch-node">
+                        <div class="arch-icon">🤖</div>
+                        <div class="arch-label">Gemini LLM<br><small>Rationale Gen</small></div>
+                    </div>
+                    <div class="arch-arrow">&rarr;</div>
+                    <div class="arch-node result">
+                        <div class="arch-icon">📋</div>
+                        <div class="arch-label">Top 3-5 Standards</div>
+                    </div>
+                </div>
+                <div class="about-stats" id="about-stats"></div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Built for BIS Innovation Hackathon 2026 | RAG Pipeline: Dense + BM25 + Cross-Encoder + Gemini</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

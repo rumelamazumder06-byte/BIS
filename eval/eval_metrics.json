@@ -1,0 +1,6 @@
+{
+  "hit_rate_at_3": 1.0,
+  "mrr_at_5": 1.0,
+  "avg_latency_ms": 261.91,
+  "total_queries": 20
+}

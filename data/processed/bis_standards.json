@@ -1,0 +1,261 @@
+[
+  {
+    "standard_id": "IS 269:2015",
+    "title": "Ordinary Portland Cement — Specification",
+    "category": "Cement",
+    "scope": "This standard covers the manufacture, chemical composition, physical requirements, and performance criteria for ordinary portland cement (OPC) of 33 grade, 43 grade, and 53 grade used in general civil engineering construction works including masonry, plastering, and reinforced concrete structures.",
+    "key_clauses": [
+      "Clause 4: Chemical requirements including limits for lime saturation factor (0.66-1.02), alumina-iron ratio (minimum 0.66), insoluble residue (maximum 4%), magnesia (maximum 6%), sulphuric anhydride (maximum 3.5%), and loss on ignition (maximum 5%).",
+      "Clause 5: Physical requirements covering fineness (minimum 225 m²/kg by Blaine), standard consistency, setting time (initial not less than 30 minutes, final not more than 600 minutes), soundness (Le Chatelier expansion maximum 10mm), and compressive strength requirements for each grade.",
+      "Clause 6: Compressive strength — 33 grade: min 33 MPa at 28 days; 43 grade: min 43 MPa at 28 days; 53 grade: min 53 MPa at 28 days.",
+      "Clause 7: Packing, marking, and storage requirements. Cement bags shall be 50 kg net weight. Each bag shall be legibly marked with BIS certification mark, grade, manufacturer name, and batch number."
+    ],
+    "applications": ["general construction", "reinforced concrete", "masonry", "plastering", "precast concrete", "prestressed concrete (53 grade)"],
+    "keywords": ["OPC", "portland cement", "33 grade", "43 grade", "53 grade", "compressive strength", "cement specification", "civil engineering", "construction cement"]
+  },
+  {
+    "standard_id": "IS 455:2015",
+    "title": "Portland Slag Cement — Specification",
+    "category": "Cement",
+    "scope": "This standard specifies the requirements for portland slag cement (PSC) manufactured by intimately intergrinding a mixture of portland cement clinker, gypsum, and granulated blast furnace slag. PSC is suitable for general concrete construction, marine environments, and mass concrete works due to its lower heat of hydration and superior resistance to sulfate attack.",
+    "key_clauses": [
+      "Clause 3: Slag content shall be between 25% and 70% by mass of the cement.",
+      "Clause 4: Chemical requirements including magnesia (maximum 8%), sulphuric anhydride (maximum 3%), sulphide sulphur (maximum 1.5%), and loss on ignition (maximum 5%).",
+      "Clause 5: Physical requirements — fineness minimum 225 m²/kg, initial setting time minimum 30 minutes, final setting time maximum 600 minutes, compressive strength minimum 33 MPa at 28 days."
+    ],
+    "applications": ["mass concrete", "marine construction", "sewage works", "sulfate-resistant construction", "general concrete"],
+    "keywords": ["PSC", "portland slag cement", "blast furnace slag", "sulfate resistance", "marine concrete", "mass concrete", "low heat cement"]
+  },
+  {
+    "standard_id": "IS 1489-1:2015",
+    "title": "Portland Pozzolana Cement — Specification (Part 1: Fly Ash Based)",
+    "category": "Cement",
+    "scope": "This standard covers portland pozzolana cement (PPC) made by intergrinding portland cement clinker with fly ash conforming to IS 3812. PPC offers improved workability, reduced heat of hydration, and enhanced resistance to chemical attack. Fly ash content shall be between 15% and 35% by mass.",
+    "key_clauses": [
+      "Clause 4: Chemical requirements — fly ash content 15-35%, magnesia maximum 6%, sulphuric anhydride maximum 3%, loss on ignition maximum 5%.",
+      "Clause 5: Physical requirements — fineness minimum 300 m²/kg, initial setting time minimum 30 minutes, final setting time maximum 600 minutes, compressive strength minimum 33 MPa at 28 days, drying shrinkage maximum 0.15%."
+    ],
+    "applications": ["mass concrete", "marine structures", "hydraulic structures", "plastering", "general construction", "dam construction"],
+    "keywords": ["PPC", "portland pozzolana cement", "fly ash cement", "pozzolanic", "low heat", "durable concrete"]
+  },
+  {
+    "standard_id": "IS 8041:2018",
+    "title": "Rapid Hardening Portland Cement — Specification",
+    "category": "Cement",
+    "scope": "This standard covers rapid hardening portland cement which develops higher strength at early ages compared to ordinary portland cement. It achieves strength gain rapidly due to finer grinding and adjusted composition, making it suitable for precast concrete, urgent repair works, and cold weather concreting.",
+    "key_clauses": [
+      "Clause 4: Chemical requirements similar to OPC with adjusted lime saturation factor.",
+      "Clause 5: Physical requirements — fineness minimum 325 m²/kg (higher than OPC), compressive strength minimum 27 MPa at 3 days and 37 MPa at 7 days."
+    ],
+    "applications": ["precast concrete", "rapid construction", "cold weather concreting", "repair works", "road pavements"],
+    "keywords": ["rapid hardening", "early strength", "precast", "fast setting cement", "emergency repair"]
+  },
+  {
+    "standard_id": "IS 12269:2013",
+    "title": "53 Grade Ordinary Portland Cement — Specification",
+    "category": "Cement",
+    "scope": "This standard specifies requirements for 53 grade ordinary portland cement with high early and ultimate strength. This grade is preferred for RCC structures, prestressed concrete, and high-performance concrete applications requiring superior compressive strength.",
+    "key_clauses": [
+      "Clause 5: Compressive strength — minimum 27 MPa at 3 days, minimum 37 MPa at 7 days, minimum 53 MPa at 28 days.",
+      "Clause 4: Chemical requirements — C3S content optimized for high early strength, C3A limited for durability."
+    ],
+    "applications": ["high-rise buildings", "bridges", "prestressed concrete", "RCC", "high-performance concrete", "industrial structures"],
+    "keywords": ["53 grade", "high strength cement", "OPC 53", "prestressed", "high performance", "structural concrete"]
+  },
+  {
+    "standard_id": "IS 2062:2011",
+    "title": "Hot Rolled Medium and High Tensile Structural Steel — Specification",
+    "category": "Steel",
+    "scope": "This standard covers the requirements for hot rolled medium and high tensile structural steel plates, strips, shapes (angles, tees, beams, channels), and flats for use in structural engineering, bridges, transmission towers, and general engineering purposes. It defines various grades (E250, E300, E350, E410, E450) based on yield stress.",
+    "key_clauses": [
+      "Clause 5: Designation and grades — E250 (yield stress 250 MPa), E300, E350, E410, E450. Sub-qualities A, B, BR, C for impact test requirements at different temperatures.",
+      "Clause 6: Chemical composition — Carbon (max 0.23% for E250), Manganese, Silicon, Sulphur (max 0.045%), Phosphorus (max 0.045%). Carbon equivalent formula for weldability.",
+      "Clause 7: Mechanical properties — tensile strength, yield stress, elongation (minimum 23% for E250), bend test requirements, Charpy V-notch impact test values.",
+      "Clause 8: Dimensional tolerances for plates, sections, and flats. Thickness tolerance ±5% for plates."
+    ],
+    "applications": ["structural steel frames", "bridges", "transmission towers", "industrial buildings", "general engineering", "pressure vessels"],
+    "keywords": ["structural steel", "hot rolled", "E250", "E350", "mild steel", "I-beam", "channel", "angle", "steel plate", "high tensile"]
+  },
+  {
+    "standard_id": "IS 1786:2008",
+    "title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement — Specification",
+    "category": "Steel",
+    "scope": "This standard covers high strength deformed steel bars and wires (TMT bars) produced by thermo-mechanical treatment for use as reinforcement in concrete. Grades include Fe 415, Fe 415D, Fe 500, Fe 500D, Fe 550, Fe 550D, and Fe 600, where the number denotes minimum yield stress in MPa and D denotes higher ductility.",
+    "key_clauses": [
+      "Clause 5: Grades — Fe 415, Fe 500, Fe 550, Fe 600, with D suffix grades having enhanced ductility (higher elongation and UTS/YS ratio).",
+      "Clause 6: Chemical composition — Carbon max 0.30%, Sulphur max 0.060%, Phosphorus max 0.060%, S+P combined max 0.110%. Carbon equivalent max 0.42%.",
+      "Clause 7: Mechanical properties — yield stress, tensile strength (minimum UTS/YS ratio 1.08 for D grades), elongation (minimum 14.5% for Fe 500), bend and re-bend tests.",
+      "Clause 8: Deformation pattern — rib height, rib spacing, and relative rib area requirements for bond strength."
+    ],
+    "applications": ["RCC construction", "reinforced concrete", "foundations", "beams", "columns", "slabs", "bridges", "flyovers"],
+    "keywords": ["TMT bars", "rebar", "reinforcement steel", "Fe 500", "Fe 415", "deformed bars", "concrete reinforcement", "HYSD bars", "thermo-mechanical"]
+  },
+  {
+    "standard_id": "IS 432-1:1982",
+    "title": "Mild Steel and Medium Tensile Steel Bars and Hard-Drawn Steel Wire for Concrete Reinforcement (Part 1)",
+    "category": "Steel",
+    "scope": "This standard specifies requirements for mild steel and medium tensile steel bars for concrete reinforcement. Covers plain round bars (Grade I — mild steel, yield stress 250 MPa) and medium tensile bars (Grade II — yield stress 350 MPa).",
+    "key_clauses": [
+      "Clause 4: Chemical composition — Carbon max 0.23% (mild steel), Sulphur max 0.050%, Phosphorus max 0.050%.",
+      "Clause 5: Mechanical properties — tensile strength, yield stress (250 MPa Grade I, 350 MPa Grade II), elongation minimum 23% (Grade I), bend test."
+    ],
+    "applications": ["light reinforcement", "residential construction", "stirrups", "ties", "temperature reinforcement"],
+    "keywords": ["mild steel bars", "plain bars", "round bars", "Grade I steel", "concrete reinforcement", "MS bars"]
+  },
+  {
+    "standard_id": "IS 1977:1996",
+    "title": "Structural Steel (Ordinary Quality) — Specification",
+    "category": "Steel",
+    "scope": "This standard covers ordinary quality structural steel for general purposes where specific mechanical property requirements of IS 2062 are not mandated. Suitable for lightly loaded structures and general fabrication.",
+    "key_clauses": [
+      "Clause 4: Chemical composition — Carbon max 0.27%, Manganese max 1.00%, Sulphur max 0.060%, Phosphorus max 0.060%.",
+      "Clause 5: Tensile strength 410-530 MPa, yield stress minimum 230 MPa, elongation minimum 20%."
+    ],
+    "applications": ["general fabrication", "light structures", "fencing", "grills", "gates", "non-critical structural work"],
+    "keywords": ["ordinary quality steel", "general purpose steel", "structural steel", "fabrication steel"]
+  },
+  {
+    "standard_id": "IS 456:2000",
+    "title": "Plain and Reinforced Concrete — Code of Practice",
+    "category": "Concrete",
+    "scope": "This is the primary Indian standard code of practice for the design of plain and reinforced concrete structures. It covers material specifications, mix design, durability, structural design methods (working stress and limit state), detailing of reinforcement, construction practices, and quality control for concrete grades M10 to M80.",
+    "key_clauses": [
+      "Clause 5: Materials — cement conforming to IS 269/455/1489, aggregates to IS 383, water requirements, admixtures to IS 9103, reinforcement to IS 1786.",
+      "Clause 6: Concrete grades — M10, M15, M20, M25, M30, M35, M40, M45, M50, M55, M60. Minimum grade for RCC is M20, for prestressed concrete is M30.",
+      "Clause 8: Durability — minimum cement content, maximum water-cement ratio, cover requirements based on exposure conditions (mild, moderate, severe, very severe, extreme).",
+      "Clause 9: Mix design requirements — target mean strength = fck + 1.65 × standard deviation.",
+      "Clause 26: Detailing — minimum reinforcement, maximum spacing, development length, anchorage, lap splice requirements."
+    ],
+    "applications": ["structural design", "building design", "RCC design", "concrete mix design", "durability design", "reinforcement detailing"],
+    "keywords": ["concrete code", "RCC design", "mix design", "M20", "M25", "M30", "concrete grade", "reinforced concrete", "limit state design", "durability"]
+  },
+  {
+    "standard_id": "IS 516:2021",
+    "title": "Hardened Concrete — Methods of Test",
+    "category": "Concrete",
+    "scope": "This standard specifies methods for testing hardened concrete including compressive strength, flexural strength, split tensile strength, modulus of elasticity, and other mechanical properties. It covers specimen preparation, curing, testing procedures, and result interpretation.",
+    "key_clauses": [
+      "Clause 5: Compressive strength test — 150mm cube specimens, loading rate 0.15-0.35 MPa/s, tested at 7 and 28 days.",
+      "Clause 6: Flexural strength test — beam specimens 100×100×500mm or 150×150×700mm, third-point loading.",
+      "Clause 7: Split tensile strength test — cylinder specimens 150mm dia × 300mm height.",
+      "Clause 8: Modulus of elasticity — determination from stress-strain curve of cylindrical specimens."
+    ],
+    "applications": ["quality control", "concrete testing", "acceptance testing", "mix design validation", "structural investigation"],
+    "keywords": ["concrete testing", "compressive strength test", "cube test", "flexural strength", "split tensile", "hardened concrete", "cube crushing"]
+  },
+  {
+    "standard_id": "IS 10262:2019",
+    "title": "Concrete Mix Proportioning — Guidelines",
+    "category": "Concrete",
+    "scope": "This standard provides guidelines for proportioning concrete mixes to achieve specified workability, strength, and durability. It covers the selection of water-cement ratio, aggregate proportions, admixture dosage, and trial mix procedures for both normal and high-strength concrete.",
+    "key_clauses": [
+      "Clause 4: Data required — grade of concrete, type of cement, exposure condition, workability, aggregate properties, chemical admixtures.",
+      "Clause 5: Target strength = fck + k × s, where k=1.65 and s is standard deviation from IS 456 Table 8.",
+      "Clause 6: Selection of water-cement ratio based on target strength and durability requirements. Maximum w/c ratio from IS 456 Table 5.",
+      "Clause 7: Estimation of water content, cement content, aggregate proportions. Coarse aggregate volume fraction from maximum nominal size and zone of fine aggregate."
+    ],
+    "applications": ["concrete mix design", "ready-mix concrete", "high-strength concrete", "self-compacting concrete", "trial mix"],
+    "keywords": ["mix design", "mix proportioning", "water-cement ratio", "concrete grade", "aggregate proportion", "workability", "trial mix"]
+  },
+  {
+    "standard_id": "IS 9103:1999",
+    "title": "Concrete Admixtures — Specification",
+    "category": "Concrete",
+    "scope": "This standard covers the requirements for chemical admixtures used in concrete including water-reducing, retarding, accelerating, superplasticizing, and air-entraining admixtures. It specifies performance requirements, test methods, and acceptance criteria.",
+    "key_clauses": [
+      "Clause 4: Types — Type A (water-reducing), Type B (retarding), Type C (accelerating), Type D (water-reducing and retarding), Type E (water-reducing and accelerating), Type F (superplasticizing), Type G (superplasticizing and retarding).",
+      "Clause 5: Performance requirements — water reduction minimum 5% (Type A), minimum 12% (Type F), setting time modifications, compressive strength ratios at various ages."
+    ],
+    "applications": ["ready-mix concrete", "high-performance concrete", "hot weather concreting", "cold weather concreting", "self-compacting concrete"],
+    "keywords": ["admixture", "superplasticizer", "water reducer", "retarder", "accelerator", "plasticizer", "concrete chemical"]
+  },
+  {
+    "standard_id": "IS 383:2016",
+    "title": "Coarse and Fine Aggregates for Concrete — Specification",
+    "category": "Aggregates",
+    "scope": "This standard covers the requirements for coarse and fine aggregates from natural sources, manufactured aggregates, and recycled aggregates for use in concrete. It specifies grading requirements, physical properties, deleterious materials limits, and testing methods.",
+    "key_clauses": [
+      "Clause 4: Classification — coarse aggregate (retained on 4.75mm sieve), fine aggregate (passing 4.75mm, retained on 75 micron sieve). Nominal sizes: 40mm, 20mm, 16mm, 12.5mm, 10mm for coarse aggregate.",
+      "Clause 5: Grading — Fine aggregate zones I, II, III, IV based on percentage passing 600 micron sieve. Coarse aggregate single-size and graded aggregate grading tables.",
+      "Clause 6: Physical requirements — aggregate crushing value (max 45% for non-wearing, 30% for wearing surfaces), aggregate impact value (max 45%/30%), Los Angeles abrasion (max 50%/40%), water absorption, specific gravity, soundness (max 12% with Na2SO4).",
+      "Clause 7: Deleterious materials — clay lumps (max 1%), materials finer than 75 micron (max 3% crushed, 15% uncrushed for fine aggregate), organic impurities."
+    ],
+    "applications": ["concrete production", "road construction", "ready-mix concrete", "precast concrete", "aggregate supply"],
+    "keywords": ["coarse aggregate", "fine aggregate", "gravel", "sand", "crushed stone", "grading", "aggregate crushing value", "zone II sand", "20mm aggregate"]
+  },
+  {
+    "standard_id": "IS 2386-1:1963",
+    "title": "Methods of Test for Aggregates for Concrete (Part 1: Particle Size and Shape)",
+    "category": "Aggregates",
+    "scope": "This standard covers methods of test for determining particle size distribution (sieve analysis), flakiness index, elongation index, and angularity number of coarse aggregates used in concrete.",
+    "key_clauses": [
+      "Clause 3: Sieve analysis — standard test sieves (80mm to 75 micron), sample preparation, sieving procedure, calculation of percentage passing and retained.",
+      "Clause 4: Flakiness index — aggregate particles whose thickness is less than 0.6 times mean dimension. Maximum limit 15-25% depending on application.",
+      "Clause 5: Elongation index — particles whose length exceeds 1.8 times mean dimension."
+    ],
+    "applications": ["aggregate quality control", "concrete mix design", "road construction", "quality testing laboratories"],
+    "keywords": ["sieve analysis", "particle size", "flakiness index", "elongation index", "aggregate testing", "grading curve"]
+  },
+  {
+    "standard_id": "IS 2386-4:1963",
+    "title": "Methods of Test for Aggregates for Concrete (Part 4: Mechanical Properties)",
+    "category": "Aggregates",
+    "scope": "This standard covers methods for testing mechanical properties of aggregates including aggregate crushing value (ACV), aggregate impact value (AIV), aggregate abrasion value, ten percent fines value, and crushing strength of cylindrical specimens.",
+    "key_clauses": [
+      "Clause 3: Aggregate crushing value — 14mm to 10mm aggregate, load of 400 kN in 10 minutes, ACV = (passing 2.36mm / total) × 100. Lower ACV indicates stronger aggregate.",
+      "Clause 4: Aggregate impact value — 14mm to 10mm aggregate, 15 blows of 14 kg hammer from 380mm height. AIV = (passing 2.36mm / total) × 100.",
+      "Clause 5: Los Angeles abrasion test — aggregate and steel balls in rotating drum, 500 or 1000 revolutions."
+    ],
+    "applications": ["aggregate quality testing", "road pavement design", "concrete aggregate selection", "construction quality control"],
+    "keywords": ["crushing value", "impact value", "abrasion value", "Los Angeles", "aggregate strength", "mechanical test"]
+  },
+  {
+    "standard_id": "IS 1542:1992",
+    "title": "Sand for Plaster — Specification",
+    "category": "Aggregates",
+    "scope": "This standard specifies requirements for natural sand and crushed stone sand used for plastering and rendering work on buildings. It covers grading, physical requirements, deleterious materials, and organic impurity limits.",
+    "key_clauses": [
+      "Clause 3: Grading requirements — three grades (fine, medium, coarse) based on fineness modulus. Fine grade FM 1.0-1.5, Medium grade FM 1.5-2.3, Coarse grade FM 2.3-3.1.",
+      "Clause 4: Physical requirements — clay lumps max 1%, materials finer than 75 micron max 10%, organic impurities shall not be darker than reference color."
+    ],
+    "applications": ["plastering", "rendering", "masonry mortar", "wall finishing"],
+    "keywords": ["plaster sand", "rendering sand", "plastering aggregate", "mortar sand", "fineness modulus"]
+  },
+  {
+    "standard_id": "IS 1343:2012",
+    "title": "Prestressed Concrete — Code of Practice",
+    "category": "Concrete",
+    "scope": "This standard covers the design and construction of prestressed concrete structures. It specifies requirements for materials, design methods, prestressing systems, losses of prestress, and construction practices for pre-tensioned and post-tensioned concrete.",
+    "key_clauses": [
+      "Clause 4: Materials — cement of minimum 43 grade, concrete minimum grade M30, high tensile steel wires/strands conforming to IS 6003/IS 6006, prestressing anchorages.",
+      "Clause 5: Design — permissible stresses at transfer and service, limit state design, shear design, deflection limits.",
+      "Clause 6: Losses of prestress — elastic shortening, creep, shrinkage, relaxation, friction, anchorage slip."
+    ],
+    "applications": ["prestressed beams", "bridge girders", "precast slabs", "industrial buildings", "long-span structures"],
+    "keywords": ["prestressed concrete", "pre-tension", "post-tension", "high tensile steel", "tendons", "bridge girder", "PSC"]
+  },
+  {
+    "standard_id": "IS 3370-1:2009",
+    "title": "Concrete Structures for Storage of Liquids — Code of Practice (Part 1: General Requirements)",
+    "category": "Concrete",
+    "scope": "This standard covers the design and construction of reinforced and prestressed concrete structures for storage of liquids including water tanks, reservoirs, swimming pools, and sewage treatment structures. It addresses impermeability, crack width control, and liquid-retaining design.",
+    "key_clauses": [
+      "Clause 4: Materials — minimum concrete grade M30, cement content minimum 330 kg/m³, maximum w/c ratio 0.45.",
+      "Clause 5: Design — permissible stresses in concrete and steel, crack width limitation (0.1mm for severe exposure, 0.2mm for moderate), minimum reinforcement 0.35% of cross-sectional area."
+    ],
+    "applications": ["water tanks", "reservoirs", "swimming pools", "sewage treatment plants", "water retaining structures"],
+    "keywords": ["water tank", "liquid retaining", "reservoir", "impermeability", "crack width", "water storage"]
+  },
+  {
+    "standard_id": "IS 6003:2010",
+    "title": "Indented Wire for Prestressed Concrete — Specification",
+    "category": "Steel",
+    "scope": "This standard covers the requirements for cold-drawn stress-relieved indented wire used in prestressed concrete. It specifies mechanical properties, dimensions, surface indentation pattern, and testing requirements.",
+    "key_clauses": [
+      "Clause 4: Nominal diameter 3mm to 8mm. Minimum tensile strength 1570-1715 MPa depending on diameter.",
+      "Clause 5: 0.2% proof stress minimum 85% of tensile strength. Elongation minimum 2.5%. Relaxation at 1000 hours maximum 5% at 70% initial load."
+    ],
+    "applications": ["prestressed concrete", "precast prestressed elements", "railway sleepers", "electric poles"],
+    "keywords": ["prestressing wire", "indented wire", "high tensile wire", "PC wire", "stress-relieved wire"]
+  }
+]

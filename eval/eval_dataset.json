@@ -1,0 +1,102 @@
+[
+  {
+    "query_id": 1,
+    "query": "53 grade ordinary portland cement for high-rise building structural concrete",
+    "relevant_standards": ["IS 269:2015", "IS 12269:2013"]
+  },
+  {
+    "query_id": 2,
+    "query": "high strength deformed TMT steel bars Fe 500D for RCC bridge columns",
+    "relevant_standards": ["IS 1786:2008"]
+  },
+  {
+    "query_id": 3,
+    "query": "coarse and fine aggregates from natural sources for ready-mix concrete production",
+    "relevant_standards": ["IS 383:2016"]
+  },
+  {
+    "query_id": 4,
+    "query": "M30 grade reinforced concrete design for commercial building with moderate exposure",
+    "relevant_standards": ["IS 456:2000", "IS 10262:2019"]
+  },
+  {
+    "query_id": 5,
+    "query": "portland slag cement for mass concrete dam construction in marine environment",
+    "relevant_standards": ["IS 455:2015"]
+  },
+  {
+    "query_id": 6,
+    "query": "hot rolled structural steel I-beam E250 grade for industrial warehouse frame",
+    "relevant_standards": ["IS 2062:2011"]
+  },
+  {
+    "query_id": 7,
+    "query": "concrete mix proportioning and design for M40 grade high performance concrete",
+    "relevant_standards": ["IS 10262:2019", "IS 456:2000"]
+  },
+  {
+    "query_id": 8,
+    "query": "sand for internal and external wall plastering and rendering work",
+    "relevant_standards": ["IS 1542:1992"]
+  },
+  {
+    "query_id": 9,
+    "query": "superplasticizer chemical admixture for self-compacting concrete",
+    "relevant_standards": ["IS 9103:1999"]
+  },
+  {
+    "query_id": 10,
+    "query": "compressive strength and flexural strength testing of hardened concrete cubes and beams",
+    "relevant_standards": ["IS 516:2021"]
+  },
+  {
+    "query_id": 11,
+    "query": "fly ash based portland pozzolana cement for hydraulic dam structure",
+    "relevant_standards": ["IS 1489-1:2015"]
+  },
+  {
+    "query_id": 12,
+    "query": "mild steel plain round bars for concrete reinforcement in residential building",
+    "relevant_standards": ["IS 432-1:1982", "IS 1786:2008"]
+  },
+  {
+    "query_id": 13,
+    "query": "aggregate crushing value and impact value testing for road construction material",
+    "relevant_standards": ["IS 2386-4:1963", "IS 2386-1:1963"]
+  },
+  {
+    "query_id": 14,
+    "query": "prestressed concrete bridge girder design using high tensile steel wire",
+    "relevant_standards": ["IS 1343:2012", "IS 6003:2010"]
+  },
+  {
+    "query_id": 15,
+    "query": "reinforced concrete water tank design for liquid retaining storage structure",
+    "relevant_standards": ["IS 3370-1:2009", "IS 456:2000"]
+  },
+  {
+    "query_id": 16,
+    "query": "rapid hardening cement for emergency road repair and precast concrete elements",
+    "relevant_standards": ["IS 8041:2018"]
+  },
+  {
+    "query_id": 17,
+    "query": "sieve analysis and flakiness index testing of coarse aggregate for concrete",
+    "relevant_standards": ["IS 2386-1:1963", "IS 383:2016"]
+  },
+  {
+    "query_id": 18,
+    "query": "steel reinforcement for foundation piles and retaining walls in seismic zone",
+    "relevant_standards": ["IS 1786:2008", "IS 456:2000"]
+  },
+  {
+    "query_id": 19,
+    "query": "ordinary quality structural steel for general fabrication and light structures",
+    "relevant_standards": ["IS 1977:1996"]
+  },
+  {
+    "query_id": 20,
+    "query": "indented prestressing wire for railway sleeper precast concrete production",
+    "relevant_standards": ["IS 6003:2010", "IS 1343:2012"]
+  }
+]

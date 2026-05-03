@@ -1,0 +1,17 @@
+# Environment
+.env
+venv/
+__pycache__/
+*.pyc
+
+# Data
+data/chroma_db/
+data/raw/*.pdf
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+*.DS_Store
+Thumbs.db
